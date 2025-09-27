@@ -52,6 +52,10 @@ body {
 }
 
 .information {
+    display: column;
+}
+
+.lola1 {
     display: flex;
     position: relative;
     top: -120px;
@@ -61,4 +65,31 @@ body {
     gap: 5px;
     justify-content: left;
     align-items: center;
+    margin-bottom: 15px;
+}
+
+.lola2 {
+    display: flex;
+    position: relative;
+    top: -120px;
+    left: 150px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: grey;
+    gap: 5px;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 25px; 
+}
+
+.lola3 {
+    display: flex;
+    position: relative;
+    top: -120px;
+    left: 150px;
+    font-size: 14px;
+    font-family: sans-serif;
+    gap: 5px;
+    justify-content: left;
+    align-items: center;   
 }
