@@ -32,14 +32,18 @@ body {
     left: 365px;
 }
 
-.container {
-    display: column;
+.roqie {
+    display: flex;
     font-family: sans-serif;
     justify-content: left;
-    margin: 20px 0px 20px 10px;
-    gap: 25px;
+    margin: 20px 0px 15px 10px;
+    gap: 15px;
 }
 
-.container p {
+article p {
+    display: flex;
     color: grey;
+    justify-content: left;
+    font-family: sans-serif;
+    margin: 15px 0px 20px 10px;
 }
