@@ -26,9 +26,19 @@ body {
 }
 
 .img-dop2 {
-    display: flex;
     z-index: 1;
     position: absolute;
     top: 15px;
     left: 365px;
+}
+
+.container {
+    display: column;
+    font-family: sans-serif;
+    margin: 20px 0px 20px 10px;
+    gap: 25px;
+}
+
+.container p {
+    color: grey;
 }
