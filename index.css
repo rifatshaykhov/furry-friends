@@ -93,3 +93,15 @@ body {
     justify-content: left;
     align-items: center;   
 }
+
+.like-rex {
+   display: flex;
+    position: relative;
+    left: 10px;
+}
+
+.like-tuzik {
+   display: flex;
+    position: relative;
+    left: 45px;    
+}
