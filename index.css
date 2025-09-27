@@ -50,3 +50,18 @@ body {
     height: 134px;
     margin: 30px 20px 30px 20px;
 }
+
+.information {
+    position: relative;
+    top: -120px;
+    left: 150px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.lola-woman {
+    position: absolute;
+    top: 5px;
+    left: 60px;
+}
