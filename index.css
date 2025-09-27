@@ -50,3 +50,15 @@ body {
     height: 134px;
     margin: 30px 20px 30px 20px;
 }
+
+.information {
+    display: flex;
+    position: relative;
+    top: -120px;
+    left: 150px;
+    font-size: 22px;
+    font-family: sans-serif;
+    gap: 5px;
+    justify-content: left;
+    align-items: center;
+}
