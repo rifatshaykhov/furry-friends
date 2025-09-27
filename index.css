@@ -43,7 +43,7 @@ body {
     font-family: sans-serif;
 }
 
-.lola {
+.animal {
     border-radius: 24px;
     box-shadow: 0px 0px 10px gray;
     width: 360px;
@@ -55,7 +55,7 @@ body {
     display: column;
 }
 
-.lola1 {
+.text1 {
     display: flex;
     position: relative;
     top: -120px;
@@ -68,7 +68,7 @@ body {
     margin-bottom: 15px;
 }
 
-.lola2 {
+.text2 {
     display: flex;
     position: relative;
     top: -120px;
@@ -82,7 +82,7 @@ body {
     margin-bottom: 25px; 
 }
 
-.lola3 {
+.text3 {
     display: flex;
     position: relative;
     top: -120px;
