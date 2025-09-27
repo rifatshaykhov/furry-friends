@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.base {
+    position: absolute;
+    top: 133px;
+    left: 256px;
+    border-radius: 24px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray; 
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+    font-size: 24px;
+    font-family:'Palanquin Dark', sans-serif;
+    font-style: bold;
+    padding: 30px 30px 0px 25px ;
+}
+
