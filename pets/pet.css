@@ -18,32 +18,12 @@ body {
     box-shadow: 0px 0px 10px gray; 
 }
 
-.img-dop1 {
-    z-index: 1;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-
-.img-dop2 {
-    z-index: 1;
-    position: absolute;
-    top: 15px;
-    left: 365px;
-}
-
-.roqie {
+.qq {
     display: flex;
-    font-family: sans-serif;
-    justify-content: left;
-    margin: 20px 0px 15px 10px;
-    gap: 15px;
-}
-
-article p {
-    display: flex;
-    color: grey;
-    justify-content: left;
-    font-family: sans-serif;
-    margin: 15px 0px 20px 10px;
+    position: relative;
+    top: -442px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 15px 15px 15px;
+    z-index: 1;
 }
