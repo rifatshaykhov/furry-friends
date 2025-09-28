@@ -30,6 +30,7 @@ body {
 
 .text {
     display: flex;
+    position: relative;
     justify-content: left;
     align-items: flex-start;
 }
@@ -55,8 +56,33 @@ body {
 .poroda {
     color: gray;
     font-family: sans-serif;
-    font-size: 16px;
     position: absolute;
-    bottom: 20px;
+    font-size: 16px;
+    bottom:20px;
     margin-left: 15px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 64px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 10px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+ 
+.yo h4 {
+    padding-right: 5px;
+    padding-left: 5px;
 }
