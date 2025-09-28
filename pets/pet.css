@@ -95,5 +95,39 @@ body {
 }
 
 span {
-    color: red
+    color: #FF1C7B;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 8px;
+    width: 133px;
+    height: 51px;
+    padding: 12px 10px 12px 10px;
+    gap: 8px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF1C7B;
+    border-radius: 8px;
+    width: 221px;
+    height: 51px;
+    padding: 12px 10px 12px 10px;
+    gap: 8px;    
 }
