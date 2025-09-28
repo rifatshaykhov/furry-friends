@@ -28,6 +28,12 @@ body {
     z-index: 1;
 }
 
+.text {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
 .named {
     display: flex;
     position: relative;
@@ -38,11 +44,19 @@ body {
     font-family: sans-serif;
 }
 
+.geo {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+
 .poroda {
     color: gray;
     font-family: sans-serif;
     font-size: 16px;
-    position: relative;
-    bottom: 40px;
+    position: absolute;
+    bottom: 20px;
     margin-left: 15px;
 }
